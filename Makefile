@@ -1,8 +1,13 @@
 MAKEFLAGS=--silent
-.PHONY: bash_profile
+.PHONY: bash_profile tf-new-workspace tf-init tf-validate tf-plan tf-apply tf-fmt
 
 bash_profile:
   cp .bash_profile /Users/$(whoami)
+
+check-env:
+ifndef env
+	$(error Variable `env` not provided)
+endif
   
 tf-init:
 	docker run \
