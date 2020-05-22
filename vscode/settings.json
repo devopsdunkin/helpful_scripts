@@ -1,0 +1,23 @@
+{
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "yaml.customTags": [
+        "!vault"
+    ],
+    "window.zoomLevel": 0,
+    "go.buildOnSave": "off",
+    "go.lintOnSave": "off",
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+        "go-langserver": "gopls"
+    },
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true,
+        "goToDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "goToTypeDefinition": true
+    },
+    "projectTemplates.templatesDirectory": "<directory>"
+}
