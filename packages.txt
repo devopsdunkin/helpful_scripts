@@ -1,0 +1,13 @@
+ansible
+ansible-lint
+bash-completion
+curl
+git
+go
+helm
+hugo
+packer
+pipenv
+python@3.8
+telnet
+wget
