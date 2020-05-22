@@ -1,0 +1,4 @@
+if [[ "$(uname | tr '[:upper:]' '[:lower:]')" == 'darwin' ]]; then
+  brew install $(cat brew_pkgs.txt)
+  brew cask install $(cat cask_pkgs.txt)
+fi
